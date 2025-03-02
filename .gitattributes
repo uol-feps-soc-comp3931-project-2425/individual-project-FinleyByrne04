@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Enforce LF for scripts and shaders
+*.cs text eol=lf
+*.shader text eol=lf
+
+# Auto-detect and normalize line endings
+* text=auto
