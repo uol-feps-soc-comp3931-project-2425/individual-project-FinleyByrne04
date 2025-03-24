@@ -54,7 +54,7 @@ public class SceneChanger : MonoBehaviour
             xrOrigin.position = positions[taskIndex];
             xrOrigin.rotation = Quaternion.Euler(rotations[taskIndex]);
 
-            Vector3 taskPosition = xrOrigin.position + xrOrigin.forward * 0.5f;
+            Vector3 taskPosition = xrOrigin.position + xrOrigin.forward * 0.782f;
             taskObject.position = taskPosition;
 
             Vector3 referencePosition = xrOrigin.position + xrOrigin.forward * 2.0f;
@@ -73,12 +73,12 @@ public class SceneChanger : MonoBehaviour
         if (taskIndex % 4 == 1 || taskIndex % 4 == 3)
         {
             error = Mathf.Abs(taskPosition.x - halfwayPoint.x);
-            Debug.Log("Task " + (taskIndex + 1) + ": X-axis error = " + error);
+            Debug.Log("Task " + (taskIndex + 1) + ", Scene: " + sceneNames[currentSceneIndex+1] + ", Accuracy error = " + error);
         }
         else 
         {
             error = Mathf.Abs(taskPosition.z - halfwayPoint.z);
-            Debug.Log("Task " + (taskIndex + 1) + ": Z-axis error = " + error);
+            Debug.Log("Task " + (taskIndex + 1) + ", Scene: " + sceneNames[currentSceneIndex] + ", Accuracy error = " + error);
         }
     }
 }

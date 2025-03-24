@@ -6710,6 +6710,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -913635738221858456, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -909040153132578750, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -15276,6 +15280,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 86939659635134275, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 746b340d591ec2543852b5ff5c3a9358, type: 2}
     - target: {fileID: 108628336612366231, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -19068,7 +19076,7 @@ MonoBehaviour:
   referenceObject: {fileID: 657717382}
   positions:
   - {x: 10.88, y: 1.7, z: 0.28}
-  - {x: 10.88, y: 1.7, z: 1.28}
+  - {x: 10.88, y: 1.7, z: -7.39}
   - {x: 10.88, y: 1.7, z: 2.28}
   - {x: 10.88, y: 1.7, z: 3.28}
   rotations:
