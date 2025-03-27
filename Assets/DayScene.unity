@@ -9427,6 +9427,10 @@ PrefabInstance:
       value: BistroExterior
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -12968,7 +12972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Lightmapping
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -17243,7 +17247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8764306391386631250, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8764306391386631250, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17435,7 +17439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8495125151603035736, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8495125151603035736, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18547,7 +18551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6406371732437036150, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -6406371732437036150, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22358,6 +22362,10 @@ PrefabInstance:
       value: BistroInterior
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -24043,7 +24051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4057183600482453750, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4057183600482453750, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
