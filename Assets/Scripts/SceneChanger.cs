@@ -17,6 +17,7 @@ public class SceneChanger : MonoBehaviour
     private float time = 0.0f;
     private float taskInterval = 15.0f;
 
+
     void Start()
     {
         moveObjects();
@@ -25,24 +26,29 @@ public class SceneChanger : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        if (time >= taskInterval) // Press Enter to switch
+        if (time >= taskInterval)
         {
             time = 0.0f;
             MeasureDistance();
             taskIndex++;
 
-            if (taskIndex == tasksPerScene)
+            if (taskIndex % tasksPerScene == 0)
             {
                 currentSceneIndex++;
                 if (currentSceneIndex < sceneNames.Length)
                 {
-                    SceneManager.LoadScene(sceneNames[currentSceneIndex]);
+                    SceneManager.LoadScene(sceneNames[currentSceneIndex], LoadSceneMode.Additive);
+
+                    if (currentSceneIndex > 0)
+                    {
+                        SceneManager.UnloadSceneAsync(sceneNames[currentSceneIndex - 1]);
+                        moveObjects();
+                    }
                 }
             }
             else
             {
                 moveObjects();
-                Debug.Log("Task " + taskIndex + " completed");
             }
         }
     }
@@ -52,14 +58,15 @@ public class SceneChanger : MonoBehaviour
         if (taskIndex < positions.Length)
         {
             xrOrigin.position = positions[taskIndex];
-            xrOrigin.rotation = Quaternion.Euler(rotations[taskIndex]);
+            xrOrigin.rotation = Quaternion.Euler(rotations[taskIndex%4]);
 
             Vector3 taskPosition = xrOrigin.position + xrOrigin.forward * 0.782f;
             taskObject.position = taskPosition;
+            taskObject.rotation = xrOrigin.rotation;
 
             Vector3 referencePosition = xrOrigin.position + xrOrigin.forward * 2.0f;
             referenceObject.position = referencePosition;
-            referenceObject.rotation = Quaternion.Euler(rotations[taskIndex]);
+            referenceObject.rotation = xrOrigin.rotation;
         }
     }
 
@@ -73,7 +80,7 @@ public class SceneChanger : MonoBehaviour
         if (taskIndex % 4 == 1 || taskIndex % 4 == 3)
         {
             error = Mathf.Abs(taskPosition.x - halfwayPoint.x);
-            Debug.Log("Task " + (taskIndex + 1) + ", Scene: " + sceneNames[currentSceneIndex+1] + ", Accuracy error = " + error);
+            Debug.Log("Task " + (taskIndex + 1) + ", Scene: " + sceneNames[currentSceneIndex] + ", Accuracy error = " + error);
         }
         else 
         {
