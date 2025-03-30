@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000004, guid: f23f7c30bb55ceb4ca03a3fc575c7587, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 8aa3584bbd4e48547892a229cae9204d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -12972,7 +12972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Lightmapping
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -20470,9 +20470,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2709612369935810829, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2709612369935810829, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -2709612369935810829, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6017f2174ef1e704c82dec2a9efe3810, type: 2}
     - target: {fileID: -2699833343924920059, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
@@ -22074,6 +22082,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 289854723320426309, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
+      propertyPath: m_RayTraceProcedural
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 289854723320426309, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
@@ -23627,7 +23639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3347308382928611127, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 3355315823358270619, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
