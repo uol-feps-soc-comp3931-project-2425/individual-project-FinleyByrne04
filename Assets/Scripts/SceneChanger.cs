@@ -64,7 +64,7 @@ public class SceneChanger : MonoBehaviour
             taskObject.position = taskPosition;
             taskObject.rotation = xrOrigin.rotation;
 
-            Vector3 referencePosition = xrOrigin.position + xrOrigin.forward * 2.0f;
+            Vector3 referencePosition = xrOrigin.position + xrOrigin.forward * Random.Range(1.5f, 2.5f);
             referenceObject.position = referencePosition;
             referenceObject.rotation = xrOrigin.rotation;
         }

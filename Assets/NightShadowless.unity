@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: ce8395478854b45488d49136d2fc95d3, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 8aa3584bbd4e48547892a229cae9204d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -131,12 +131,12 @@ GameObject:
   - component: {fileID: 29660758}
   - component: {fileID: 29660757}
   m_Layer: 0
-  m_Name: pointLight7_Streetlight
+  m_Name: pointLight2_Streetlight (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &29660756
 Transform:
   m_ObjectHideFlags: 0
@@ -311,7 +311,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -350,7 +350,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9553e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -376,7 +376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &170483251
 Transform:
   m_ObjectHideFlags: 0
@@ -590,7 +590,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9551e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -616,7 +616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &215818860
 Transform:
   m_ObjectHideFlags: 0
@@ -830,7 +830,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9547e-41, y: 2.524355e-29, z: 0, w: 3.67342e-40}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -856,7 +856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &277971811
 Transform:
   m_ObjectHideFlags: 0
@@ -1070,7 +1070,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9543e-41, y: 2.524355e-29, z: 0, w: -3.59e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -1091,12 +1091,12 @@ GameObject:
   - component: {fileID: 421120366}
   - component: {fileID: 421120365}
   m_Layer: 0
-  m_Name: pointLight8_Streetlight
+  m_Name: pointLight2_Streetlight (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &421120364
 Transform:
   m_ObjectHideFlags: 0
@@ -1271,7 +1271,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1310,7 +1310,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9599e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -1385,7 +1385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &450480036
 Transform:
   m_ObjectHideFlags: 0
@@ -1599,7 +1599,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9554e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -1620,12 +1620,12 @@ GameObject:
   - component: {fileID: 457881809}
   - component: {fileID: 457881808}
   m_Layer: 0
-  m_Name: 'pointLight10_Streetlight '
+  m_Name: pointLight2_Streetlight (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &457881807
 Transform:
   m_ObjectHideFlags: 0
@@ -1800,7 +1800,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1839,7 +1839,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9556e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -1865,7 +1865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &548924872
 Transform:
   m_ObjectHideFlags: 0
@@ -2079,7 +2079,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.1275e-41, y: 2.524355e-29, z: 0, w: 1.8334325e+31}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -2088,32 +2088,6 @@ Light:
   m_LightUnit: 2
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
---- !u!1 &549763465 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -581414995880108322, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-  m_PrefabInstance: {fileID: 1105192165}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &549763469
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549763465}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 6406.121, y: 7813.3125, z: 7.1054993}
-  m_Center: {x: -2261.6226, y: 422.3243, z: 17.799755}
 --- !u!1 &569767342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,7 +2105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &569767343
 Transform:
   m_ObjectHideFlags: 0
@@ -2345,7 +2319,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.7952087e-20, y: 9.194e-41, z: 4.8856e-41, w: 1.4546743e-37}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -2371,7 +2345,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &699557700
 Transform:
   m_ObjectHideFlags: 0
@@ -2585,7 +2559,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.0004e-41, y: 2.524355e-29, z: 0, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -2606,12 +2580,12 @@ GameObject:
   - component: {fileID: 808506635}
   - component: {fileID: 808506634}
   m_Layer: 0
-  m_Name: pointLight5_Streetlight
+  m_Name: pointLight2_Streetlight (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &808506633
 Transform:
   m_ObjectHideFlags: 0
@@ -2786,7 +2760,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2825,7 +2799,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 9.102061e-12, y: 4.2292133e+21, z: 42054020, w: 4.5452035e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -2851,7 +2825,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &976125388
 Transform:
   m_ObjectHideFlags: 0
@@ -3065,7 +3039,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.1264e-41, y: 2.524355e-29, z: 0, w: 2.296e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -3091,7 +3065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1007206929
 Transform:
   m_ObjectHideFlags: 0
@@ -3305,7 +3279,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.1258e-41, y: 2.524355e-29, z: 0, w: -2.497902e-32}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -8243,10 +8217,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -913635738221858456, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -913635738221858456, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
@@ -9211,72 +9181,8 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: flareSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: flareFalloff
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_ColorShadow
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: useVolumetric
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: flareMultiplier
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_FilterSizeTraced
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_VolumetricDimmer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_FilterTracedShadow
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_UseRayTracedShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_NumRayTracingSamples
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_UseScreenSpaceShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_RayTracedContactShadow
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_VolumetricShadowDimmer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: celestialBodyShadingSource
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_ShadowResolution.m_Level
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_UseContactShadow.m_Level
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_ShadowResolution.m_Override
-      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_UseContactShadow.m_Override
@@ -9284,10 +9190,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_ShadowResolution.m_UseOverride
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_UseContactShadow.m_UseOverride
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 693716615887620699, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
@@ -9441,10 +9343,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Name
       value: BistroExterior
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12976,7 +12874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Intensity
-      value: 100000
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_AreaSize.x
@@ -12988,11 +12886,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Lightmapping
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Shadows.m_Type
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_BounceIntensity
@@ -13004,11 +12902,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 3.9379e-41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.524355e-29
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_BoundingSphereOverride.z
@@ -14111,10 +14009,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       insertIndex: 1311
       addedObject: {fileID: 1007206929}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: -581414995880108322, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 549763469}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
 --- !u!4 &1105192166 stripped
 Transform:
@@ -14133,12 +14028,12 @@ GameObject:
   - component: {fileID: 1114010722}
   - component: {fileID: 1114010721}
   m_Layer: 0
-  m_Name: pointLight3_Streetlight
+  m_Name: pointLight2_Streetlight (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1114010720
 Transform:
   m_ObjectHideFlags: 0
@@ -14313,7 +14208,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14352,7 +14247,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.1261e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -14378,7 +14273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1126313464
 Transform:
   m_ObjectHideFlags: 0
@@ -14592,7 +14487,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.1255e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -14613,12 +14508,12 @@ GameObject:
   - component: {fileID: 1150679604}
   - component: {fileID: 1150679603}
   m_Layer: 0
-  m_Name: 'pointLight9_Streetlight '
+  m_Name: pointLight2_Streetlight (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1150679602
 Transform:
   m_ObjectHideFlags: 0
@@ -14793,7 +14688,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14832,7 +14727,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0.0000000025637625, y: 0.0000027151668, z: 5.676463e-31, w: 3.097271e+27}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -14858,7 +14753,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1156049144
 Transform:
   m_ObjectHideFlags: 0
@@ -15033,7 +14928,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15072,7 +14967,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0.000043679214, y: 2.5324855e-12, z: 1.8542114e+25, w: 0.00000003730601}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -15098,7 +14993,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1220943003
 Transform:
   m_ObjectHideFlags: 0
@@ -15312,7 +15207,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.7105054e-20, y: 1.05e-43, z: 5.1278e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -15338,7 +15233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1262886834
 Transform:
   m_ObjectHideFlags: 0
@@ -15552,7 +15447,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.125e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -15578,7 +15473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1309594606
 Transform:
   m_ObjectHideFlags: 0
@@ -15792,7 +15687,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0.00083545217, z: 0.00083545217, w: 0.00083545217}
+  m_BoundingSphereOverride: {x: 5.1233e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -15818,7 +15713,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1365136340
 Transform:
   m_ObjectHideFlags: 0
@@ -16032,7 +15927,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.123e-41, y: 2.524355e-29, z: 0, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -16058,7 +15953,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1397762088
 Transform:
   m_ObjectHideFlags: 0
@@ -16272,7 +16167,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.006e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -16298,7 +16193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1436202585
 Transform:
   m_ObjectHideFlags: 0
@@ -16512,7 +16407,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.1238e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -16538,7 +16433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1500074077
 Transform:
   m_ObjectHideFlags: 0
@@ -16752,7 +16647,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.1241e-41, y: 2.524355e-29, z: 0, w: 2.7470774e+20}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -16778,7 +16673,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1521868215
 Transform:
   m_ObjectHideFlags: 0
@@ -16992,7 +16887,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.1247e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -17262,10 +17157,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8764306391386631250, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8764306391386631250, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -17452,10 +17343,6 @@ PrefabInstance:
     - target: {fileID: -8495406348290400724, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: -8495125151603035736, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8495125151603035736, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18564,10 +18451,6 @@ PrefabInstance:
     - target: {fileID: -6435950818523392983, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: -6406371732437036150, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -6406371732437036150, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19779,15 +19662,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4126577537382778724, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 4.465435e+30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4126577537382778724, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 5.6011e-41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4126577537382778724, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.524355e-29
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4126577537382778724, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.z
@@ -20002,16 +19885,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3741172145810704643, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_BoundingSphereOverride.w
-      value: 3.9415303e+12
-      objectReference: {fileID: 0}
-    - target: {fileID: -3741172145810704643, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 3.9766e-41
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -3741172145810704643, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.524355e-29
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3730440457036664534, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
@@ -20486,17 +20365,9 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2709612369935810829, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -2709612369935810829, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -2709612369935810829, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 6017f2174ef1e704c82dec2a9efe3810, type: 2}
     - target: {fileID: -2699833343924920059, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
@@ -22005,10 +21876,6 @@ PrefabInstance:
       propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 86939659635134275, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 746b340d591ec2543852b5ff5c3a9358, type: 2}
     - target: {fileID: 87994554923550749, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
@@ -22096,10 +21963,6 @@ PrefabInstance:
     - target: {fileID: 255492492963368812, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 289854723320426309, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_RayTraceProcedural
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 289854723320426309, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticShadowCaster
@@ -22388,10 +22251,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_Name
       value: BistroInterior
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23655,7 +23514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3347308382928611127, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 127
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3355315823358270619, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23723,15 +23582,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3410247080889234811, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3410247080889234811, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 5.646e-41
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3410247080889234811, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.524355e-29
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3410247080889234811, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.z
@@ -24076,10 +23935,6 @@ PrefabInstance:
     - target: {fileID: 4055581754910913891, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 4057183600482453750, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4057183600482453750, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -24744,10 +24599,6 @@ PrefabInstance:
     - target: {fileID: 5221708645807393957, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_Shadows.m_Type
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5221708645807393957, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
-      propertyPath: m_BoundingSphereOverride.w
-      value: 3.097268e+27
       objectReference: {fileID: 0}
     - target: {fileID: 5221708645807393957, guid: c91b2ffa1240ab04aa94a8898d452b2b, type: 3}
       propertyPath: m_BoundingSphereOverride.y
@@ -26899,7 +26750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1647784818
 Transform:
   m_ObjectHideFlags: 0
@@ -27074,7 +26925,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27113,7 +26964,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9551e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -27134,12 +26985,12 @@ GameObject:
   - component: {fileID: 1675410282}
   - component: {fileID: 1675410281}
   m_Layer: 0
-  m_Name: pointLight6_Streetlight
+  m_Name: pointLight2_Streetlight (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1675410280
 Transform:
   m_ObjectHideFlags: 0
@@ -27314,7 +27165,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27353,7 +27204,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9553e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -27374,12 +27225,12 @@ GameObject:
   - component: {fileID: 1739915511}
   - component: {fileID: 1739915510}
   m_Layer: 0
-  m_Name: pointLight4_Streetlight
+  m_Name: pointLight2_Streetlight (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1739915509
 Transform:
   m_ObjectHideFlags: 0
@@ -27548,13 +27399,13 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.702, g: 0.5664075, b: 0.310284, a: 1}
-  m_Intensity: 2000
+  m_Intensity: 2000.0001
   m_Range: 20
   m_SpotAngle: 45
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -27593,7 +27444,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -27619,7 +27470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1880849797
 Transform:
   m_ObjectHideFlags: 0
@@ -27833,7 +27684,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.9544e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -27859,7 +27710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1918325712
 Transform:
   m_ObjectHideFlags: 0
@@ -28073,7 +27924,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 4.9303807e-32, y: 1.08e-43, z: NaN, w: 5.3986492e-11}
+  m_BoundingSphereOverride: {x: 4.9546e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -28099,7 +27950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1920262847
 Transform:
   m_ObjectHideFlags: 0
@@ -28313,7 +28164,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 5.0071e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -28339,7 +28190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1955054254
 Transform:
   m_ObjectHideFlags: 0
@@ -28553,7 +28404,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1.08e-43, z: 4.9647e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -28628,7 +28479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2073367882
 Transform:
   m_ObjectHideFlags: 0
@@ -28842,7 +28693,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 8344
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 4.04e-43, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 4.6677e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0

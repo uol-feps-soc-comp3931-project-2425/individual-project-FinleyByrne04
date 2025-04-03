@@ -9211,24 +9211,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: flareSize
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: flareFalloff
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_ColorShadow
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: useVolumetric
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: flareMultiplier
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_FilterSizeTraced
@@ -9260,10 +9248,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_VolumetricShadowDimmer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
-      propertyPath: celestialBodyShadingSource
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 689644088664737487, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
@@ -12988,11 +12972,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Lightmapping
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_Shadows.m_Type
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7444291088221732032, guid: bbc2a9c019d072f4888a534d548d7306, type: 3}
       propertyPath: m_BounceIntensity
