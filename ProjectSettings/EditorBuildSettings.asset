@@ -5,15 +5,42 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/OutdoorsScene.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
   - enabled: 1
     path: Assets/DayScene.unity
     guid: 909456df38e5e664fa741186b1c8cb06
   - enabled: 1
     path: Assets/NightScene.unity
     guid: f42e4db196ba9a24c979248114ccfea7
+  - enabled: 1
+    path: Assets/DayBare.unity
+    guid: 38aa4ce2f999aaf43b137a3cdc61ad0b
+  - enabled: 1
+    path: Assets/DayOpaque.unity
+    guid: 03664501da1af484c90cea235a969ae4
+  - enabled: 1
+    path: Assets/DayTextureless.unity
+    guid: 5eb9929839e95ee499879ea81c5b698a
+  - enabled: 1
+    path: Assets/DayShadowless.unity
+    guid: 44e9889065b8dac44ade6fc4b50f3a2d
+  - enabled: 1
+    path: Assets/NightBare.unity
+    guid: 3cbd58b5dc6934c44a9d9860b006ea57
+  - enabled: 1
+    path: Assets/NightOpaque.unity
+    guid: d4ec32ffd1b133344b6cc85909ffe285
+  - enabled: 1
+    path: Assets/NightShadowless.unity
+    guid: 61407dcc67b102a47ac9a63190e2c1e9
+  - enabled: 1
+    path: Assets/NightTextureless.unity
+    guid: 113913145de09284eb5bff6ad149e4e5
+  - enabled: 1
+    path: Assets/DaySceneShort.unity
+    guid: 11dc87183c76ebd439afb1500e9bb049
+  - enabled: 1
+    path: Assets/DaySceneTall.unity
+    guid: f15253ebd6a83db4e8f07cbe2bd5390f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 70efea6491f5ba840822e22c969aecd0, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}

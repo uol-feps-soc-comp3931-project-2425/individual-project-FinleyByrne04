@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000004, guid: ce8395478854b45488d49136d2fc95d3, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 8aa3584bbd4e48547892a229cae9204d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -347,7 +347,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 1
+  antialiasing: 2
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
   taaSharpenMode: 0
   taaRingingReduction: 0
   taaHistorySharpening: 0.35
-  taaAntiFlicker: 0.5
+  taaAntiFlicker: 1
   taaMotionVectorRejection: 0
   taaAntiHistoryRinging: 0
   taaBaseBlendFactor: 0.875
@@ -571,7 +571,7 @@ Transform:
   m_GameObject: {fileID: 1827267279}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.115, y: 2.293, z: 1.617}
+  m_LocalPosition: {x: 10.943, y: 2.293, z: 1.596}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_SmoothScale: 0
   m_SmoothScaleAmount: 8
   m_TightenScale: 0.1
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -757,17 +757,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneNames:
   - DayScene
+  - DayScene
   - NightScene
+  - NightScene
+  - DaySceneTall
+  - DaySceneTall
+  - DaySceneShort
+  - DaySceneShort
+  - DayBare
+  - NightBare
+  - DayOpaque
+  - NightOpaque
+  - DayTextureless
+  - DayTextureless
+  - NightTextureless
+  - NightTextureless
+  - DayShadowless
+  - DayShadowless
+  - NightShadowless
+  - NightShadowless
   taskObject: {fileID: 1827267283}
   xrOrigin: {fileID: 2091900903}
   referenceObject: {fileID: 657717382}
-  positions:
-  - {x: 10.88, y: 1.7, z: 0.28}
-  - {x: 10.88, y: 1.7, z: -7.39}
-  - {x: 10.88, y: 1.7, z: 2.28}
-  - {x: 10.88, y: 1.7, z: 3.28}
-  - {x: 10.88, y: 1.7, z: 0.28}
-  - {x: 10.88, y: 1.7, z: -7.28}
+  outsidePositions:
+  - {x: 7.052, y: 1, z: 6.604}
+  - {x: 9.884, y: 1, z: -3.417}
+  - {x: 8.164, y: 1, z: -8.71}
+  - {x: 13.911, y: 1, z: -0.427}
+  insidePositions:
+  - {x: -5.785, y: 1, z: -9.96}
+  - {x: -7.377, y: 1, z: -5.08}
+  - {x: -3.314, y: 1, z: -1.441}
+  - {x: -2.716, y: 1, z: -5.735}
   rotations:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 90, z: 0}
@@ -820,6 +841,14 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 784739571}
+    - target: {fileID: 1178791450436251564, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_CameraYOffset
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1178791450436251564, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1476061164850483772, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_HapticImpulsePlayer
       value: 
@@ -842,15 +871,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.017
+      value: 9.71
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.422
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6
+      value: -1.92
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalRotation.w
