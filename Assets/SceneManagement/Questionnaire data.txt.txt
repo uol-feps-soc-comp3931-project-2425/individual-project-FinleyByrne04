@@ -1,0 +1,29 @@
+Questionnaire Results
+
+Question 1: Did you experience any visual discomfort throughout the testing? If so, were there particular environments that exemplified this feeling?
+Participant 1: Going from dark to light scenes and vice versa was weird, otherwise no.
+Participant 2: When the lighting changed it was a bit disorienting.
+Participant 3: The sun was very bright.
+Participant 4: No discomfort.
+Participant 5: There were little controller stutters but no.
+
+Question 2: On a 1-10 scale, rate how immersive each environment felt? (Results given in order of 'Control, Tall, Short, Bare, Opaque, Textureless, Shadowless')
+Participant 1: 10, 8, 6, 7, 9, 4, 5
+Participant 2: 10, 2, 4, 6, 10, 6, 9
+Participant 3: 8, 8, 5, 3, 7, 3, 6
+Participant 4: 9, 7, 6, 6, 9, 4, 8
+Participant 5: 10, 10, 6, 7, 10, 6, 7
+
+Question 3: On a 1-10 scale, rate how accurate you felt your depth perception was in each environment? (Results given in order of 'Control, Tall, Short, Bare, Opaque, Textureless, Shadowless')
+Participant 1: 8, 7, 6, 7, 8, 7, 7
+Participant 2: 10, 1, 5, 9, 10, 10, 10
+Participant 3: 9, 10, 7, 8, 9, 8, 9
+Participant 4: 9, 10, 8, 8, 9, 7, 8
+Participant 5: 8, 9, 7, 8, 8, 8, 8
+
+Question 4: On a 1-10 scale rate how realistic the control environment felt?
+Participant 1: 9
+Participant 2: 10
+Participant 3: 7
+Participant 4: 9
+Participant 5: 8
